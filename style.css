@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: serif;
+    width: 1000px; /* カンマをドットに修正 */
+    height: 440px; /* カンマをドットに修正 */
+    font-size: 18px;
+}
+table{
+        border-collapse: collapse; /* ボーダーを結合して1本の線にする */
+        border-width: 2px; /* ボーダーの太さを2pxに設定 */
+        border-style: solid; /* ボーダーのスタイルを実線に設定 */
+        border-color: white;
+        margin: auto;
+        margin-top: 10px;
+
+        /* 任意のボーダー色を設定する場合 */
+        /* border-color: #ff0000; */
+    }
+th{
+    background-color: #87ceeb;
+    border-collapse: collapse; /* ボーダーを結合して1本の線にする */
+    border-width: 2px; /* ボーダーの太さを2pxに設定 */
+    border-style: solid; /* ボーダーのスタイルを実線に設定 */
+    border-color: white;
+    }
+td{
+    background-color: #e0ffff;
+    }
+   
+
+header{
+    display: flex;
+    padding: 0;
+ 
+}
+.header_main{
+    padding: 0;
+    align-items: center;
+}
+
+
+
+.logo {
+    background-color: #add8e6;
+    width: 200px;
+    height: 120px;
+}
+
+.logo_inner{
+    padding-bottom: 0px;
+}
+
+.name {
+    background-color: #87ceeb;
+    width: 800px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.time {
+    background-color: #00ffff;
+    width: 800px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.text{
+    padding-top: 18px;
+}
+
+main{
+    width: 1000px;
+    height: 200px;
+    background-color: white
+
+}
+
+footer{
+    background-color: #00ced1;
+    height: 120px;
+    width: 1000px;
+}
